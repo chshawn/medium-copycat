@@ -65,7 +65,7 @@ h1, h2 {
   font-style: italic;
 }
 
-a:hover {
-    background-color: green;
+span:hover {
+    background-image: linear-gradient(to bottom, rgb(31, 185, 85), rgb(59, 196, 111));
     cursor: pointer;
 }
