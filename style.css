@@ -1,0 +1,71 @@
+body, html {
+    height: 125%;
+    margin: 0%;
+    color: #494949;
+    font-size: 18px;
+    line-height: 1.6;
+    font-weight: lighter;
+    font-family: 'Lora', serif;
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+}
+
+/* The hero image */
+.hero-image {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),url("https://picsum.photos/1000/1300");
+  height: 50%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+  margin:0%;
+}
+
+/* Place text in the middle of the image */
+.hero-header {
+  text-align: left;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  color: white;
+}
+
+#subheader {
+  font-size: 25px;
+  font-style: italic;
+  font-weight: lighter;
+  opacity: 0.8;
+}
+
+.content-box {
+  width: 650px;
+  margin: 50px auto;
+  text-align: left;
+}
+
+.content-box h2 {
+  color: #A0A0A0;
+  font-weight: 400;
+}
+
+.content-box p {
+  display: block;
+  font-size: 18px;
+}
+
+.link-medium {
+  background-image: linear-gradient(to bottom, rgba(233, 253, 240, 1), rgba(233, 253, 240, 1));
+  color: #636363;
+  font-weight: lighter;
+  font-size: 25px;
+  font-style: italic;
+}
+
+a:hover {
+    background-color: green;
+    cursor: pointer;
+}
